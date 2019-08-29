@@ -72,6 +72,10 @@ a {
   background-color: $black !important;
 }
 
+.bg-gray {
+  background-color: $a-hover !important;
+}
+
 .search-colors {
   background-color: #605e5c !important;
   color: $white !important;
@@ -79,4 +83,19 @@ a {
 
 .search-colors::placeholder {
   color: #ccc !important;
+}
+
+.collapse-header {
+  text-transform: initial !important;
+  color: $a-blue !important;
+  font-size: 0.8rem !important;
+}
+
+.collapse-item {
+  color: $white !important;
+  border: 1px solid transparent;
+  &:hover {
+    background: $a-hover !important;
+    border: 1px solid $gray-600;
+  }
 }
