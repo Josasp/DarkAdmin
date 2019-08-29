@@ -50,3 +50,15 @@
     }
   }
 }
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-transparent {
+  color: white;
+}
+
+.btn-transparent:hover {
+  background: rgba(255, 255, 255, 0.15)
+}

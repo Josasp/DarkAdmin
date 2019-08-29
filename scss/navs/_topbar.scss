@@ -1,5 +1,6 @@
 // Topbar
 .topbar {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,.28);
   height: $topbar-base-height;
   #sidebarToggleTop {
     height: 2.5rem;
@@ -11,6 +12,7 @@
       background-color: $gray-300;
     }
   }
+
   .navbar-search {
     width: 25rem;
     input {
@@ -110,7 +112,13 @@
   }
 }
 
-.topbar.navbar-dark {}
+.topbar.navbar-dark {
+  background: $a-gray-50 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: $white !important;
+}
 
 .topbar.navbar-light {
   .navbar-nav {

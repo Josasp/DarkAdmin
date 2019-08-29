@@ -1,7 +1,11 @@
 // Custom Card Styling
 
 .card {
+  border-radius: 0;
+  background: $black;
+
   .card-header {
+    background: none;
     // Format Dropdowns in Card Headings
     .dropdown {
       line-height: 1;
@@ -32,5 +36,9 @@
         content: '\f105';
       }
     }
+  }
+
+  .card-header:first-child {
+    border-radius: 0;
   }
 }

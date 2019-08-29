@@ -1,9 +1,22 @@
 // Override Bootstrap default variables here
 // Do not edit any of the files in /vendor/bootstrap/scss/!
 
+
+
+// Custom Colors
+$brand-google: #ea4335;
+$brand-facebook: #3b5998;
+
+$a-gray-50: #1c1c1c;
+$a-gray-200: #323130;
+$a-gray-100: #333;
+$a-blue: #4894fe;
+$a-purple-800: #471754;
+$a-purple-600: #8a2da5;
+$a-hover: rgba(128,128,128,.15);
+
 // Color Variables
 // Bootstrap Color Overrides
-
 $white: #fff !default;
 $gray-100: #f8f9fc !default;
 $gray-200: #eaecf4 !default;
@@ -16,20 +29,17 @@ $gray-800: #5a5c69 !default;
 $gray-900: #3a3b45 !default;
 $black: #000 !default;
 
-$blue: #4e73df !default;
+
+$blue: $a-blue !default;
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
 $pink: #e83e8c !default;
-$red: #e74a3b !default;
+$red: #E81123 !default;
 $orange: #fd7e14 !default;
-$yellow: #f6c23e !default;
-$green: #1cc88a !default;
-$teal: #20c9a6 !default;
+$yellow: #FF8C00 !default;
+$green: #5DB300 !default;
+$teal: #59B3D8 !default;
 $cyan: #36b9cc !default;
-
-// Custom Colors
-$brand-google: #ea4335;
-$brand-facebook: #3b5998;
 
 // Set Contrast Threshold
 $yiq-contrasted-threshold: 195 !default;
@@ -37,11 +47,11 @@ $yiq-contrasted-threshold: 195 !default;
 // Typography
 $body-color: $gray-600 !default;
 
-$font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+$font-family-sans-serif: az_ea_font,'Segoe UI',az_font,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
 
 $font-weight-light: 300 !default;
 // $font-weight-base: 400;
-$headings-font-weight: 400 !default;
+$headings-font-weight: 600 !default;
 
 // Shadows
 $box-shadow-sm: 0 0.125rem 0.25rem 0 rgba($gray-900, .2) !default;
@@ -50,11 +60,11 @@ $box-shadow: 0 0.15rem 1.75rem 0 rgba($gray-900, .15) !default;
 
 // Borders Radius
 $border-radius: 0.35rem !default;
-$border-color: darken($gray-200, 2%);
+$border-color: darken($black, 2%);
 
 // Spacing Variables
 // Change below variable if the height of the navbar changes
-$topbar-base-height: 4.375rem;
+$topbar-base-height: 3rem;
 // Change below variable to change the width of the sidenav
 $sidebar-base-width: 14rem;
 // Change below variable to change the width of the sidenav when collapsed

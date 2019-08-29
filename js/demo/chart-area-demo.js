@@ -94,13 +94,14 @@ var myLineChart = new Chart(ctx, {
       display: false
     },
     tooltips: {
-      backgroundColor: "rgb(255,255,255)",
-      bodyFontColor: "#858796",
+      backgroundColor: "#1c1c1c",
+      bodyFontColor: "white",
       titleMarginBottom: 10,
-      titleFontColor: '#6e707e',
+      titleFontColor: '#4894fe',
       titleFontSize: 14,
       borderColor: '#dddfeb',
       borderWidth: 1,
+      cornerRadius: 0,
       xPadding: 15,
       yPadding: 15,
       displayColors: false,

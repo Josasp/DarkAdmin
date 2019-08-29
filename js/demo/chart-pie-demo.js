@@ -11,15 +11,18 @@ var myPieChart = new Chart(ctx, {
     datasets: [{
       data: [55, 30, 15],
       backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
+      borderColor: 'transparent',
       hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
-      hoverBorderColor: "rgba(234, 236, 244, 1)",
+      hoverBorderColor: "#4894fe",
     }],
   },
   options: {
     maintainAspectRatio: false,
     tooltips: {
-      backgroundColor: "rgb(255,255,255)",
-      bodyFontColor: "#858796",
+      backgroundColor: "#1c1c1c",
+      bodyFontColor: "white",
+      cornerRadius: 0,
+      bodyFontColor: "white",
       borderColor: '#dddfeb',
       borderWidth: 1,
       xPadding: 15,

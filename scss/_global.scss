@@ -15,11 +15,16 @@ a {
   }
 }
 
+.h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 // Main page wrapper
 #wrapper {
   display: flex;
   #content-wrapper {
-    background-color: $gray-100;
+    background-color: $a-gray-100;
     width: 100%;
     overflow-x: hidden;
     #content {
@@ -57,4 +62,21 @@ a {
   i {
     font-weight: 800;
   }
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.bg-black {
+  background-color: $black !important;
+}
+
+.search-colors {
+  background-color: #605e5c !important;
+  color: $white !important;
+}
+
+.search-colors::placeholder {
+  color: #ccc !important;
 }

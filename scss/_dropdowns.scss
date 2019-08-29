@@ -2,12 +2,24 @@
 
 .dropdown {
   .dropdown-menu {
+    border-radius: 0;
+    background: $black;
+    border: $a-gray-200 1px solid;
     font-size: $dropdown-font-size;
     .dropdown-header {
-      @extend .text-uppercase;
       font-weight: 800;
-      font-size: 0.65rem;
-      color: $gray-500;
+      font-size: 0.8rem;
+      color: $a-blue;
+    }
+    .dropdown-item {
+      color: $white !important;
+      &:hover {
+        background: $a-hover;
+      }
+    }
+
+    .dropdown-divider {
+      border-color: $a-gray-200;
     }
   }
 }
